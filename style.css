@@ -1,118 +1,75 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdf6;
+  color: #4b4b4b;
 }
 
-/* Navigation Bar Styling */
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
+  background-color: #a27b5c;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-header nav ul {
-    display: flex; /* Makes the items in the list horizontal */
-    justify-content: center; /* Centers the items horizontally */
-    list-style: none; /* Removes bullet points */
-    padding: 0;
-    margin: 0;
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
-header nav ul li {
-    margin: 0 15px; /* Adds space between each menu item */
+.nav-links.active {
+  display: block;
 }
 
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.3s;
+.nav-links li {
+  margin: 0 10px;
 }
 
-header nav ul li a:hover {
-    color: #4CAF50; /* Changes color on hover */
-}
-
-/* Section Styles */
-section {
-    padding: 20px;
-    margin: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-}
-
-h1, h2 {
-    text-align: center;
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #8a5d3b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+  background-color: #6b4830;
 }
 
-/* Loading Animation */
-#loader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #333;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    z-index: 1000;
+/* Responsive Menu */
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
-#loader.hidden {
+@media (max-width: 768px) {
+  .nav-links {
     display: none;
-}
+    flex-direction: column;
+    background-color: #a27b5c;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    left: 0;
+  }
 
-/* Project Styles */
-#filter-buttons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.filter-btn {
-    margin: 0 10px;
-}
-
-#search-container {
-    text-align: center;
-    margin: 20px 0;
-}
-
-#project-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.project-item {
-    padding: 15px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    text-align: center;
-}
-
-/* Contact Form */
-form label {
+  .menu-toggle {
     display: block;
-    mar
+  }
+}
