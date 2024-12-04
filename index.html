@@ -1,81 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanisha Hyppolite Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <div id="loader"></div> <!-- Loading Animation -->
-
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Explore my work, skills, and projects.</p>
+  <header>
+    <nav>
+      <div class="logo">Tanisha's Portfolio</div>
+      <button class="menu-toggle">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hi, I'm Tanisha Hyppolite, a Computer Science major with a passion for cybersecurity, programming, and UX design.</p>
+      <button onclick="scrollToSection('about.html')">Learn More</button>
     </section>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate Computer Science student with a focus on web development and cybersecurity.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div id="filter-buttons">
-            <button class="filter-btn" data-category="all">All</button>
-            <button class="filter-btn" data-category="web">Web Development</button>
-            <button class="filter-btn" data-category="java">Java</button>
-            <button class="filter-btn" data-category="ux">UX Design</button>
-        </div>
-
-        <div id="search-container">
-            <input type="text" id="search-bar" placeholder="Search projects...">
-        </div>
-
-        <div id="project-list">
-            <div class="project-item" data-category="web">
-                <h3>Portfolio Website</h3>
-                <p>A responsive portfolio built with HTML, CSS, and JavaScript.</p>
-            </div>
-            <div class="project-item" data-category="java">
-                <h3>UFO Animation Simulation</h3>
-                <p>Java-based animated GUI application simulating UFO movement.</p>
-            </div>
-            <div class="project-item" data-category="ux">
-                <h3>UX Case Study</h3>
-                <p>Redesign of an e-commerce platform for better usability.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
-    <script src="script.js"></script>
+  </main>
 </body>
 </html>
 
