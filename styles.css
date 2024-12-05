@@ -1,13 +1,15 @@
+/* Base Styling for All Pages */
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5dc; 
-  color: #4b4b4b; 
+  background-color: #f5f5dc; /* Beige background */
+  color: #4b4b4b; /* Text color for readability */
 }
 
+/* Header Styling */
 header {
-  background-color: #a27b5c; 
+  background-color: #a27b5c; /* Complementary dark beige for header */
   padding: 10px;
   position: sticky;
   top: 0;
@@ -34,20 +36,58 @@ header {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-size: 1.2rem; /* Larger navigation text */
 }
 
+/* General Text Styling */
+h1 {
+  font-size: 3rem; /* Large, bold headings */
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 2.5rem; /* Slightly smaller than h1 */
+  text-align: center;
+  margin: 15px 0;
+}
+
+p {
+  font-size: 1.5rem; /* Bigger text for readability */
+  line-height: 1.8; /* Increased line spacing */
+  text-align: justify;
+  margin: 20px auto;
+  width: 80%; /* Makes text take up more horizontal space */
+}
+
+/* Section Styling */
+section {
+  min-height: 100vh; /* Each section fills the viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Button Styling */
 button {
   background-color: #8a5d3b;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 15px 30px; /* Bigger padding for larger buttons */
+  font-size: 1.2rem; /* Larger button text */
   cursor: pointer;
+  margin: 20px 0;
 }
 
 button:hover {
-  background-color: #6b4830; 
+  background-color: #6b4830; /* Darker beige for hover */
 }
 
+/* Menu Toggle for Mobile */
 .menu-toggle {
   display: none;
   font-size: 1.5rem;
@@ -72,4 +112,3 @@ button:hover {
     display: block;
   }
 }
-
