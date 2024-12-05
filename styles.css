@@ -72,6 +72,46 @@ section {
   box-sizing: border-box;
 }
 
+/* Intro Section Styling */
+#intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f5f5dc; /* Beige background */
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+}
+
+.headshot {
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 50%; /* Makes it a circle */
+  border: 3px solid #8a5d3b; /* Add a border matching your theme */
+  margin-bottom: 20px;
+}
+
+.intro-text h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.intro-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 15px 0;
+}
+
+.intro-text button {
+  margin: 10px 10px;
+}
+
 /* Button Styling */
 button {
   background-color: #8a5d3b;
