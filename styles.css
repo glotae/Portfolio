@@ -90,6 +90,14 @@
   text-decoration: underline; /* Add underline on hover for clarity */
 }
 
+a {
+    display: inline-block;
+    margin-left: 20px; /* Adjust this value to move it further to the right */
+    text-decoration: none;
+    color: #000; /* Optional: ensure it's styled nicely */
+}
+
+
 /* Button Styling */
 button {
   background-color: #8a5d3b;
