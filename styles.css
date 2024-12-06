@@ -72,6 +72,26 @@ section {
   box-sizing: border-box;
 }
 
+/* Skills Section Styling */
+.skills-title {
+  font-size: 2.5rem; /* Match the size of About Me title */
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.skills-list {
+  font-size: 1.5rem; /* Match the paragraph size of About Me */
+  line-height: 1.8;
+  text-align: justify;
+  margin: 0 auto;
+  width: 80%; /* Center-align the text */
+  list-style-type: disc; /* Use bullets */
+  padding-left: 20px; /* Add space for bullets */
+}
+
+
+
 /* Intro Section Styling */
 #intro {
   display: flex;
