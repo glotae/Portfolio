@@ -1,3 +1,12 @@
+/* Base Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5dc; /* Beige background */
+  color: #4b4b4b; /* Text color */
+}
+
 /* Intro Section Styling */
 #intro {
   display: flex;
@@ -16,10 +25,10 @@
 }
 
 .headshot {
-  width: 250px; /* Increase the width */
-  height: 250px; /* Increase the height */
-  border-radius: 50%; /* Keep the circular shape */
-  border: 5px solid #8a5d3b; /* Make the border thicker */
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid #8a5d3b;
   margin-bottom: 20px;
 }
 
@@ -40,54 +49,54 @@
 
 /* Skills Section Styling */
 .skills-title {
-  font-size: 2.5rem; /* Match the size of About Me title */
+  font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
   margin: 20px 0;
 }
 
 .skills-list {
-  font-size: 1.5rem; /* Match the paragraph size of About Me */
+  font-size: 1.5rem;
   line-height: 1.8;
   text-align: justify;
   margin: 0 auto;
-  width: 80%; /* Center-align the text */
-  list-style-type: disc; /* Use bullets */
-  padding-left: 20px; /* Add space for bullets */
+  width: 80%;
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 /* Projects Section Styling */
 #projects {
   text-align: center;
-  padding: 50px 20px; /* Add spacing around the section */
+  padding: 50px 20px;
 }
 
 .project {
-  margin: 20px auto; /* Space between projects */
-  max-width: 800px; /* Limit the width for better readability */
+  margin: 20px auto;
+  max-width: 800px;
 }
 
 .project-title {
-  font-size: 2rem; /* Make the project titles slightly larger */
+  font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 10px; /* Space between title and description */
+  margin-bottom: 10px;
 }
 
 .project-description {
-  font-size: 1.2rem; /* Consistent with paragraph text */
-  line-height: 1.8; /* Improve readability */
-  margin-bottom: 10px; /* Space before the link */
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 10px;
 }
 
 .project-link {
   font-size: 1rem;
-  color: #8a5d3b; /* Match the theme */
+  color: #8a5d3b;
   text-decoration: none;
   font-weight: bold;
 }
 
 .project-link:hover {
-  text-decoration: underline; /* Add underline on hover for clarity *
+  text-decoration: underline; /* Add underline on hover for clarity */
 }
 
 /* Button Styling */
@@ -95,14 +104,14 @@ button {
   background-color: #8a5d3b;
   color: white;
   border: none;
-  padding: 15px 30px; /* Bigger padding for larger buttons */
-  font-size: 1.2rem; /* Larger button text */
+  padding: 15px 30px;
+  font-size: 1.2rem;
   cursor: pointer;
   margin: 20px 0;
 }
 
 button:hover {
-  background-color: #6b4830; /* Darker beige for hover */
+  background-color: #6b4830;
 }
 
 /* Menu Toggle for Mobile */
