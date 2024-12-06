@@ -119,6 +119,23 @@ body {
   text-decoration: underline; /* Add underline on hover for clarity */
 }
 
+/* Contact Section Styling */
+#contact {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#contact h1 {
+  font-size: 2.5rem; /* Increase the size of the Contact Me heading */
+  font-weight: bold;
+}
+
+#contact p, #contact a {
+  font-size: 1.8rem; /* Increase the size of text and links */
+  line-height: 1.8; /* Improve readability */
+  margin: 10px 0;
+}
+
 /* Button Styling */
 button {
   background-color: #8a5d3b;
