@@ -47,6 +47,26 @@ body {
   margin: 10px 10px;
 }
 
+/* About Me Section Styling */
+#about-me {
+  text-align: center;
+  padding: 50px 20px; /* Add spacing around the section */
+}
+
+.about-title {
+  font-size: 2.5rem; /* Match the size of Skills title */
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.about-description {
+  font-size: 1.5rem; /* Match the paragraph size of Skills */
+  line-height: 1.8;
+  text-align: justify;
+  margin: 0 auto;
+  width: 80%; /* Center-align the text */
+}
+
 /* Skills Section Styling */
 .skills-title {
   font-size: 2.5rem;
