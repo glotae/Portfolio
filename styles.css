@@ -56,6 +56,40 @@
   padding-left: 20px; /* Add space for bullets */
 }
 
+/* Projects Section Styling */
+#projects {
+  text-align: center;
+  padding: 50px 20px; /* Add spacing around the section */
+}
+
+.project {
+  margin: 20px auto; /* Space between projects */
+  max-width: 800px; /* Limit the width for better readability */
+}
+
+.project-title {
+  font-size: 2rem; /* Make the project titles slightly larger */
+  font-weight: bold;
+  margin-bottom: 10px; /* Space between title and description */
+}
+
+.project-description {
+  font-size: 1.2rem; /* Consistent with paragraph text */
+  line-height: 1.8; /* Improve readability */
+  margin-bottom: 10px; /* Space before the link */
+}
+
+.project-link {
+  font-size: 1rem;
+  color: #8a5d3b; /* Match the theme */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  text-decoration: underline; /* Add underline on hover for clarity */
+}
+
 /* Button Styling */
 button {
   background-color: #8a5d3b;
