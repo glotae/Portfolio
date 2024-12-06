@@ -90,10 +90,10 @@ section {
 }
 
 .headshot {
-  width: 150px; /* Adjust size as needed */
-  height: 150px;
-  border-radius: 50%; /* Makes it a circle */
-  border: 3px solid #8a5d3b; /* Add a border matching your theme */
+  width: 250px; /* Increase the width */
+  height: 250px; /* Increase the height */
+  border-radius: 50%; /* Keep the circular shape */
+  border: 5px solid #8a5d3b; /* Make the border thicker */
   margin-bottom: 20px;
 }
 
